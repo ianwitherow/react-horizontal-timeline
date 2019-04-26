@@ -41,8 +41,8 @@ const faderStyle = {
  */
 const Faders = (props) => (
   <ul style={{ listStyle: 'none' }}>
-    <li style={[ faderStyle.base, faderStyle.specific(props.styles, LEFT, RIGHT) ]} />
-    <li style={[ faderStyle.base, faderStyle.specific(props.styles, RIGHT, LEFT) ]} />
+    <li/>
+    <li/>
   </ul>
 );
 
